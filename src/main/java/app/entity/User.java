@@ -154,6 +154,14 @@ public class User implements Serializable {
         private byte[] picture;
 
     /**
+    * @generated
+    */
+    @ManyToOne
+    @JoinColumn(name="fk_pessoa", nullable = true, referencedColumnName = "id", insertable=true, updatable=true, foreignKey = @ForeignKey(name = ""))
+        
+        private Pessoa pessoa;
+
+    /**
     * Construtor
     * @generated
     */
@@ -482,6 +490,25 @@ public class User implements Serializable {
     */
     public User setPicture(byte[] picture){
         this.picture = picture;
+        return this;
+    }
+    /**
+    * Obtém pessoa
+    * return pessoa
+    * @generated
+    */
+    
+    public Pessoa getPessoa(){
+        return this.pessoa;
+    }
+
+    /**
+    * Define pessoa
+    * @param pessoa pessoa
+    * @generated
+    */
+    public User setPessoa(Pessoa pessoa){
+        this.pessoa = pessoa;
         return this;
     }
 

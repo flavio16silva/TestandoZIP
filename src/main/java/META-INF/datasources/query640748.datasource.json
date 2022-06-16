@@ -1,0 +1,97 @@
+{
+  "customId": "query640748",
+  "queryName": "TestePublicPessoa",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Pessoa",
+  "entityFullName": "app.entity.Pessoa",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Pessoa",
+        "alias": "p",
+        "namespace": "app.entity.Pessoa"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "p"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": [
+      "Public"
+    ],
+    "POST": true,
+    "POSTAuthorities": [
+      "Public"
+    ],
+    "PUT": true,
+    "PUTAuthorities": [
+      "Public"
+    ],
+    "DELETE": true,
+    "DELETEAuthorities": [
+      "Public"
+    ],
+    "FILTER": true,
+    "FILTERAuthorities": [
+      "Public"
+    ],
+    "COUNT": true,
+    "COUNTAuthorities": [
+      "Public"
+    ]
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "email": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "email": null
+  },
+  "security": {
+    "id": null,
+    "nome": null,
+    "email": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query640748/",
+  "audit": false
+}

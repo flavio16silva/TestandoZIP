@@ -1,0 +1,85 @@
+{
+  "customId": "query722528",
+  "queryName": "Telefones",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Telefone",
+  "entityFullName": "app.entity.Telefone",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Telefone",
+        "alias": "t",
+        "namespace": "app.entity.Telefone"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "t"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "telefone": null,
+    "ramal": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "telefone": null,
+    "ramal": null
+  },
+  "security": {
+    "id": null,
+    "telefone": null,
+    "ramal": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query722528/",
+  "audit": false
+}

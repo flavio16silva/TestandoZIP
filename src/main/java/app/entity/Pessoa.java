@@ -10,15 +10,15 @@ import cronapi.rest.security.CronappSecurity;
 
 
 /**
-* Classe que representa a tabela DADOS
+* Classe que representa a tabela PESSOA
 * @generated
 */
 @Entity
-@Table(name = "\"DADOS\"")
+@Table(name = "\"PESSOA\"")
 @XmlRootElement
 @CronappSecurity
-@JsonFilter("app.entity.Dados")
-public class Dados implements Serializable {
+@JsonFilter("app.entity.Pessoa")
+public class Pessoa implements Serializable {
 
     /**
     * UID da classe, necessário na serialização
@@ -36,29 +36,22 @@ public class Dados implements Serializable {
     /**
     * @generated
     */
-    @Column(name = "Nome", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "nome", nullable = true, unique = false, insertable=true, updatable=true)
         
         private java.lang.String nome;
 
     /**
     * @generated
     */
-    @Column(name = "Email", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "email", nullable = true, unique = false, insertable=true, updatable=true)
         
         private java.lang.String email;
-
-    /**
-    * @generated
-    */
-    @Column(name = "Imagem", nullable = true, unique = false, insertable=true, updatable=true)
-        
-        private byte[] imagem;
 
     /**
     * Construtor
     * @generated
     */
-    public Dados(){
+    public Pessoa(){
     }
 
     /**
@@ -76,7 +69,7 @@ public class Dados implements Serializable {
     * @param id id
     * @generated
     */
-    public Dados setId(java.lang.String id){
+    public Pessoa setId(java.lang.String id){
         this.id = id;
         return this;
     }
@@ -95,7 +88,7 @@ public class Dados implements Serializable {
     * @param nome nome
     * @generated
     */
-    public Dados setNome(java.lang.String nome){
+    public Pessoa setNome(java.lang.String nome){
         this.nome = nome;
         return this;
     }
@@ -114,27 +107,8 @@ public class Dados implements Serializable {
     * @param email email
     * @generated
     */
-    public Dados setEmail(java.lang.String email){
+    public Pessoa setEmail(java.lang.String email){
         this.email = email;
-        return this;
-    }
-    /**
-    * Obtém imagem
-    * return imagem
-    * @generated
-    */
-    
-    public byte[] getImagem(){
-        return this.imagem;
-    }
-
-    /**
-    * Define imagem
-    * @param imagem imagem
-    * @generated
-    */
-    public Dados setImagem(byte[] imagem){
-        this.imagem = imagem;
         return this;
     }
 
@@ -145,7 +119,7 @@ public class Dados implements Serializable {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-Dados object = (Dados)obj;
+Pessoa object = (Pessoa)obj;
         if (id != null ? !id.equals(object.id) : object.id != null) return false;
         return true;
     }

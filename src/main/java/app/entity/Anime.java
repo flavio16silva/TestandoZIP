@@ -10,15 +10,15 @@ import cronapi.rest.security.CronappSecurity;
 
 
 /**
-* Classe que representa a tabela DADOS
+* Classe que representa a tabela ANIME
 * @generated
 */
 @Entity
-@Table(name = "\"DADOS\"")
+@Table(name = "\"ANIME\"")
 @XmlRootElement
 @CronappSecurity
-@JsonFilter("app.entity.Dados")
-public class Dados implements Serializable {
+@JsonFilter("app.entity.Anime")
+public class Anime implements Serializable {
 
     /**
     * UID da classe, necessário na serialização
@@ -36,29 +36,29 @@ public class Dados implements Serializable {
     /**
     * @generated
     */
-    @Column(name = "Nome", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "anime", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private java.lang.String nome;
+        private java.lang.String anime;
 
     /**
     * @generated
     */
-    @Column(name = "Email", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "episodio", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private java.lang.String email;
+        private java.lang.Integer episodio;
 
     /**
     * @generated
     */
-    @Column(name = "Imagem", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "ano", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private byte[] imagem;
+        private java.lang.String ano;
 
     /**
     * Construtor
     * @generated
     */
-    public Dados(){
+    public Anime(){
     }
 
     /**
@@ -76,65 +76,65 @@ public class Dados implements Serializable {
     * @param id id
     * @generated
     */
-    public Dados setId(java.lang.String id){
+    public Anime setId(java.lang.String id){
         this.id = id;
         return this;
     }
     /**
-    * Obtém nome
-    * return nome
+    * Obtém anime
+    * return anime
     * @generated
     */
     
-    public java.lang.String getNome(){
-        return this.nome;
+    public java.lang.String getAnime(){
+        return this.anime;
     }
 
     /**
-    * Define nome
-    * @param nome nome
+    * Define anime
+    * @param anime anime
     * @generated
     */
-    public Dados setNome(java.lang.String nome){
-        this.nome = nome;
+    public Anime setAnime(java.lang.String anime){
+        this.anime = anime;
         return this;
     }
     /**
-    * Obtém email
-    * return email
+    * Obtém episodio
+    * return episodio
     * @generated
     */
     
-    public java.lang.String getEmail(){
-        return this.email;
+    public java.lang.Integer getEpisodio(){
+        return this.episodio;
     }
 
     /**
-    * Define email
-    * @param email email
+    * Define episodio
+    * @param episodio episodio
     * @generated
     */
-    public Dados setEmail(java.lang.String email){
-        this.email = email;
+    public Anime setEpisodio(java.lang.Integer episodio){
+        this.episodio = episodio;
         return this;
     }
     /**
-    * Obtém imagem
-    * return imagem
+    * Obtém ano
+    * return ano
     * @generated
     */
     
-    public byte[] getImagem(){
-        return this.imagem;
+    public java.lang.String getAno(){
+        return this.ano;
     }
 
     /**
-    * Define imagem
-    * @param imagem imagem
+    * Define ano
+    * @param ano ano
     * @generated
     */
-    public Dados setImagem(byte[] imagem){
-        this.imagem = imagem;
+    public Anime setAno(java.lang.String ano){
+        this.ano = ano;
         return this;
     }
 
@@ -145,7 +145,7 @@ public class Dados implements Serializable {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-Dados object = (Dados)obj;
+Anime object = (Anime)obj;
         if (id != null ? !id.equals(object.id) : object.id != null) return false;
         return true;
     }
