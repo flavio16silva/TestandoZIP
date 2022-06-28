@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
 
 @CronapiMetaData(type = "blockly")
 @CronappSecurity
-public class Blocoteste {
+public class BlocoLeituraTAB {
 
 public static final int TIMEOUT = 300;
 
@@ -16,14 +16,14 @@ public static final int TIMEOUT = 300;
  *
  * @return Var
  */
-// Blocoteste
-public static Var Registro() throws Exception {
+// BlocoLeituraTAB
+public static Var Executar() throws Exception {
  return new Callable<Var>() {
 
    public Var call() throws Exception {
 
-    cronapi.util.Operations.callClientFunction(Var.valueOf("cronapi.screen.refreshActiveRecord"),
-    Var.valueOf("User"));
+    cronapi.util.Operations.callClientFunction(Var.valueOf("cronapi.screen.disableComponent"),
+    Var.valueOf("cron-crn-enterprise-combobox-858388"));
     return Var.VAR_NULL;
    }
  }.call();
