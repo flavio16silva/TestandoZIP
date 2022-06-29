@@ -7,7 +7,7 @@
       "attrs": {},
       "chkApi": false,
       "dataSource": "jdbc/main",
-      "disableCache": false,
+      "disableCache": true,
       "id": "paperCell",
       "namespace": "app",
       "position": {
