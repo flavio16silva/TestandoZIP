@@ -25,6 +25,7 @@ window.dataSourceMap["app.query224897"] = { customId: "Paginacao", serviceUrl: "
 window.dataSourceMap["app.query370329"] = { customId: "Ordenacao", serviceUrl: "api/cronapi/odata/v2/app/Ordenacao/", serviceUrlODATA: "/api/cronapi/odata/v2/app/Ordenacao" };
 window.dataSourceMap["app.query640748"] = { customId: "query640748", serviceUrl: "api/cronapi/odata/v2/app/query640748/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query640748" };
 window.dataSourceMap["app.query722528"] = { customId: "query722528", serviceUrl: "api/cronapi/odata/v2/app/query722528/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query722528" };
+window.dataSourceMap["app.query960131"] = { customId: "query960131", serviceUrl: "api/cronapi/odata/v2/app/query960131/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query960131" };
 window.dataSourceMap["app.roleManager"] = { customId: "roleManager", serviceUrl: "api/cronapi/odata/v2/app/roleManager/", serviceUrlODATA: "/api/cronapi/odata/v2/app/roleManager" };
 window.dataSourceMap["app.roleSecurableManager"] = { customId: "roleSecurableManager", serviceUrl: "api/cronapi/odata/v2/app/roleSecurableManager/", serviceUrlODATA: "/api/cronapi/odata/v2/app/roleSecurableManager" };
 window.dataSourceMap["app.roleSecurables"] = { customId: "roleSecurables", serviceUrl: "api/cronapi/odata/v2/app/roleSecurables/", serviceUrlODATA: "/api/cronapi/odata/v2/app/roleSecurables" };

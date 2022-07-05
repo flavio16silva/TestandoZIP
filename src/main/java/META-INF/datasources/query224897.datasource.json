@@ -7,7 +7,7 @@
   "entitySimpleName": null,
   "entityFullName": null,
   "endpoint": {
-    "url": "https://reqres.in/api/users",
+    "url": "https://607f375302a23c0017e8cec5.mockapi.io/api/user",
     "GET": {
       "parameters": {
         "$url": null,

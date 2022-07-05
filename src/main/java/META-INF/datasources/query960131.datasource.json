@@ -1,49 +1,29 @@
 {
-  "customId": "Ordenacao",
-  "queryName": "TestandoOrdenacao",
+  "customId": "query960131",
+  "queryName": "TesteTry",
   "sourceType": "rest",
   "baseEntity": null,
   "blockly": null,
   "entitySimpleName": null,
   "entityFullName": null,
   "endpoint": {
-    "url": "https://retoolapi.dev/9Ami3D/data",
+    "url": "https://viacep.com.br/ws/01001000/json",
     "GET": {
-      "parameters": {
-        "$url": null,
-        "$datapath": "\"data\"",
-        "sort": "\"id\"",
-        "order": "\"desc\""
-      }
+      "parameters": {}
     },
     "POST": {},
     "PUT": {},
     "DELETE": {},
     "FILTER": {
-      "parameters": {
-        "$url": null,
-        "$datapath": "\"data\"",
-        "sort": "\"id\"",
-        "order": "\"desc\""
-      }
+      "parameters": {}
     },
     "COUNT": {
-      "parameters": {
-        "$url": null,
-        "$datapath": "\"$.total\"",
-        "order": ":desc",
-        "orderBy": "field"
-      }
+      "parameters": {}
     },
     "metadata": null
   },
   "query": "",
-  "queryParamsValues": [
-    {
-      "fieldName": "desc",
-      "fieldValue": ""
-    }
-  ],
+  "queryParamsValues": [],
   "verbs": {
     "GET": true,
     "GETAuthorities": null,
@@ -70,45 +50,80 @@
     "onError": null
   },
   "defaultValues": {
-    "createdAt": null,
-    "email": null,
-    "id": null,
-    "name": null,
-    "status": null
+    "bairro": null,
+    "cep": null,
+    "complemento": null,
+    "ddd": null,
+    "gia": null,
+    "ibge": null,
+    "localidade": null,
+    "logradouro": null,
+    "siafi": null,
+    "uf": null
   },
   "defaultValuesProperties": {
-    "createdAt": {
-      "key": false,
-      "nullable": true,
-      "type": "String"
-    },
-    "email": {
-      "key": false,
-      "nullable": true,
-      "type": "String"
-    },
-    "id": {
+    "bairro": {
       "key": true,
-      "nullable": false,
-      "type": "String"
-    },
-    "name": {
-      "key": false,
       "nullable": true,
       "type": "String"
     },
-    "status": {
-      "key": false,
+    "cep": {
+      "key": true,
       "nullable": true,
-      "type": "Boolean"
+      "type": "String"
+    },
+    "complemento": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "ddd": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "gia": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "ibge": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "localidade": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "logradouro": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "siafi": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "uf": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
     }
   },
   "security": {
-    "createdAt": null,
-    "email": null,
-    "id": null,
-    "name": null,
-    "status": null
+    "bairro": null,
+    "cep": null,
+    "complemento": null,
+    "ddd": null,
+    "gia": null,
+    "ibge": null,
+    "localidade": null,
+    "logradouro": null,
+    "siafi": null,
+    "uf": null
   },
   "calcFields": {},
   "calcFieldsSecurity": {},
@@ -121,6 +136,6 @@
     "primaryKey": null,
     "foreignKey": null
   },
-  "serviceUrl": "api/cronapi/odata/v2/app/query370329/",
+  "serviceUrl": "api/cronapi/odata/v2/app/query960131/",
   "audit": false
 }
