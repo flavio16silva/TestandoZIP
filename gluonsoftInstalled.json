@@ -1,0 +1,26 @@
+[
+  {
+    "gluonsoftId": "FA2E49C0-CEB9-41CA-BCA1-A1D0E7AE12AD",
+    "versionId": "718E8E3D-7B00-47DF-BFE9-1308AB1195FD",
+    "name": "Manipular Excel",
+    "version": "1.0.1",
+    "dateAdded": "2022-07-11 19:37:28",
+    "filesMerged": [
+      {
+        "name": "pom.xml",
+        "path": "/pom.xml",
+        "mavenDependecies": [
+          {
+            "artifactId": "cronapi-excel",
+            "classifier": null,
+            "groupId": "io.cronapp",
+            "scope": null,
+            "systemPath": null,
+            "type": null,
+            "version": "1.0.1"
+          }
+        ]
+      }
+    ]
+  }
+]
